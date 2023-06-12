@@ -3,7 +3,7 @@ import App from "./App";
 import { HomePage } from "./pages/HomePage/HomePage";
 import { About } from "./pages/About/About";
 import { Account } from "./pages/Account/Account";
-import { AccountDropdown } from "./pages/accountDropdown/accountDropdown";
+
 import { CartPage } from "./pages/cartPage/cartPage";
 import { CategoryDropdown } from "./pages/categoryDropdown/categoryDropdown";
 import { Checkout } from "./pages/Checkout/Checkout";
@@ -33,10 +33,6 @@ export const router = createBrowserRouter([
             {
                 path:'/account',
                 element:<Account />
-            },
-            {
-                path:'/accountDropdown',
-                element:<AccountDropdown />
             },
             {
                 path:'/cartPage',
