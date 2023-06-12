@@ -4,15 +4,15 @@ import { HomePage } from "./pages/HomePage/HomePage";
 import { About } from "./pages/About/About";
 import { Account } from "./pages/Account/Account";
 
-import { CartPage } from "./pages/cartPage/cartPage";
-import { CategoryDropdown } from "./pages/categoryDropdown/categoryDropdown";
+import { CartPage } from "./pages/CartPage/CartPage";
+import { CategoryDropdown } from "./pages/CategoryDropdown/CategoryDropdown";
 import { Checkout } from "./pages/Checkout/Checkout";
 import { Contact } from "./pages/Contact/Contact";
 import { Error404 } from "./pages/Error404/Error404";
 import { Login } from "./pages/Login/login";
 import { Product } from "./pages/Product/product";
 import { Register } from "./pages/register/register";
-import { Wishlist } from "./pages/wishlist/wishlist";
+import { Wishlist } from "./pages/Wishlist/Wishlist";
 import { SingleProduct } from "./pages/SingleProduct/SingleProduct";
 
 export const router = createBrowserRouter([
