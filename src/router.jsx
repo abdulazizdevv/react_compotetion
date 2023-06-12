@@ -10,7 +10,7 @@ import { Checkout } from "./pages/Checkout/Checkout";
 import { Contact } from "./pages/Contact/Contact";
 import { Error404 } from "./pages/Error404/Error404";
 import { Login } from "./pages/Login/Login";
-import { Product } from "./pages/Product/product";
+import { Product } from "./pages/Product/Product";
 import { Register } from "./pages/Register/Register";
 import { Wishlist } from "./pages/Wishlist/Wishlist";
 import { SingleProduct } from "./pages/SingleProduct/SingleProduct";
