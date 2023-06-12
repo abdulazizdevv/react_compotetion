@@ -1,0 +1,33 @@
+.all_icons {
+  display: flex;
+  justify-content: space-around;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &_big {
+    margin-top: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+margin-bottom: 8px;
+    color: #000000;
+  }
+}
+.icon_small{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+
+}
+.service_box{
+  padding: 140px 0;
+}

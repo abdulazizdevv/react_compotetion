@@ -1,0 +1,112 @@
+.hero{
+width: 100%;
+display: flex;
+justify-content: space-between;
+gap: 45px;
+    aside{
+        padding-top: 40px;
+width: 21%;
+// background-color: orange;
+border-right: 0.5px solid #0000003a ;
+display: flex;
+flex-direction: column;
+row-gap: 16px;
+a{
+    height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+text-align: left;
+color: #000000;
+
+}
+
+    }
+
+    .carousel{
+        width: 75%;
+        display: flex;
+        background: #000000;
+        margin-top: 40px;
+        height: 344px;
+    }
+}
+
+
+.carousel_left{
+    padding: 58px 0 47px 64px ;
+    width: 50%;
+    .name{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 20px;
+        span{
+            width: 40px;
+height: 49px;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-image: url(../../assets/images/apple.png);
+        }
+        p{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FAFAFA;
+flex: none;
+order: 1;
+flex-grow: 0;
+        }
+    }
+    h2{
+        height: auto;
+        width: 294px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: 0.04em;
+color: #FAFAFA;
+margin-bottom: 22px;
+    }
+    .shop{
+display: flex;
+align-items: center;
+gap: 11px;
+img{
+    width: 16px;
+    height: 14px;
+}
+a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FAFAFA;
+text-decoration: none;
+border-bottom: 1px solid #fff;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+    }
+}
+.carousel_right{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/images/hero_bg.png);
+}

@@ -1,0 +1,150 @@
+.feature_section {
+  padding-top: 150px;
+}
+
+.btn {
+  margin: 20px auto;
+  border: none;
+  padding: 10px 44px;
+  font-size: 36px;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  &::before {
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: "";
+    width: 20px;
+    height: 40px;
+    background: #db4444;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  & .btn-text {
+    color: #db4444;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &:hover {
+    &::before {
+      background: #db4444;
+      width: 100%;
+    }
+    & .btn-text {
+      color: white;
+      z-index: 999;
+      mix-blend-mode: lighten;
+      transition: color 0.6s;
+    }
+  }
+}
+
+.arrival_text {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.arrivals {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  gap: 30px;
+  & div {
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+    position: relative;
+  }
+}
+
+.three {
+  grid-column: 1 /2;
+  grid-row: 2 / 5;
+  height: 600px;
+  background-image: url("../../assets/images/playstation5.png") !important;
+  background-size: contain 75% !important;
+  background-repeat: no-repeat !important;
+  z-index: 999 !important;
+  background-position: center !important;
+}
+.four {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  height: 285px;
+  width: 100% !important;
+  background-image: url("../../assets/images/hat.png") !important;
+  background-size: fill !important;
+  background-repeat: no-repeat !important;
+  z-index: 999 !important;
+  background-position: center !important;
+}
+.five {
+  grid-column: 2 / 2;
+  grid-row: 4 / 5;
+  height: 285px;
+  width: 100% !important;
+  background-image: url("../../assets/images/speaker.png") !important;
+  background-size: fill !important;
+  background-repeat: no-repeat !important;
+  z-index: 999 !important;
+  background-position: center !important;
+}
+.six {
+  grid-column: 3 / 4;
+  grid-row: 4 / 6;
+  height: 285px;
+  height: 285px;
+  width: 100% !important;
+  background-image: url("../../assets/images/perfume.png") !important;
+  background-size: fill !important;
+  background-repeat: no-repeat !important;
+  z-index: 999 !important;
+  background-position: center !important;
+}
+
+.arrival_item {
+  position: absolute !important;
+  bottom: 32px !important;
+  left: 32px !important;
+  background: transparent !important;
+}
+
+.arrival_title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.arrival_desc {
+  font-family: "Poppins";
+  font-size: 13px;
+  line-height: 21px;
+  color: #fafafa;
+  max-width: 242px;
+  opacity: 0.8;
+  padding-bottom: 10px;
+}
+
+.shopBtn {
+  border-bottom: 1.5px solid #000000aa;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+

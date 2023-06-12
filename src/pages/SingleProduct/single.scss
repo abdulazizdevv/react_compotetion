@@ -1,0 +1,167 @@
+.data_render_box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 100%;
+  .data_left {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    .small_img {
+      width: 170px;
+      height: 138px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 121px;
+        height: 114px;
+        object-fit: cover;
+      }
+    }
+  }
+  .data_center {
+    // width: 40%;
+    width: 500px;
+    height: 600px;
+    left: 335px;
+    top: 323px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 446px;
+      height: 315px;
+      object-fit: cover;
+    }
+  }
+  .data_right {
+    width: 40%;
+    h3 {
+      width: 100%;
+      height: auto;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+    }
+  }
+  .rating {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .active_price {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    display: block;
+    margin-top: 17px;
+  }
+  .desc_pr {
+    width: 323px;
+    height: auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    color: #000000;
+  }
+  .colors {
+    margin-top: 24px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      /* identical to box height, or 100% */
+      letter-spacing: 0.03em;
+
+      color: #000000;
+    }
+  }
+}
+.sizes {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  .size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border: 1px solid black;
+    color: #000000;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border-radius: 4px;
+
+    &:hover {
+      background: #db4444;
+      color: #f5f5f5;
+      border: 1px solid transparent;
+    }
+  }
+}
+
+.count_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .counter_bt {
+    width: 41px;
+    height: 44px;
+    background: transparent;
+    &:hover {
+      background: #db4444;
+    }
+    .inc {
+      border-radius: 0px 4px 4px 0px !important;
+    }
+  }
+  .count_ctx {
+    width: 61px;
+    height: 44px;
+  }
+}
+.conter_box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.send_pr {
+}
+.single_bottom {
+  margin-bottom: 140px !important;
+}
+
+.delivery{
+    margin-top: 40px;
+}

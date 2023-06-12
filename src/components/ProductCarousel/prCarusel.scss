@@ -1,0 +1,40 @@
+// arrows
+.my_arrows{
+    width: 100%;
+position: relative;
+    
+//  btn next and prev
+
+.c_btn{
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    } 
+    .slider_btn{
+    width: 45px;
+    height: 45px;
+    background-color:rgba($color: #ddd, $alpha: 0.6);
+    border-radius: 50% ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    // top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s ease-in-out;
+    }
+    .slider_btn:hover{
+        background-color:rgba($color: #ddd, $alpha: 1);
+    }
+    .prev_btn{
+        right: 130px;
+        top: calc(100% - 40px);
+    }
+    .next_btn{
+        right: 60px;
+        top: calc(100% - 40px);
+    }
+}

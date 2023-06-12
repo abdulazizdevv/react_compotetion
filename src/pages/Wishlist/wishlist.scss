@@ -1,0 +1,28 @@
+.wishlist{
+    margin-bottom: 140px !important;
+}
+.wish_titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        
+        /* Text2 */
+        
+        color: #000000;
+        
+    }
+    button{
+background: transparent !important;
+color: #000000 !important;
+border: 1px solid black !important;
+    }
+}

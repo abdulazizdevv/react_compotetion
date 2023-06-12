@@ -1,0 +1,144 @@
+.account {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-bottom: 140px;
+  &_right {
+    &_h5 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    .link_p {
+      margin-left: 35px;
+    }
+    &_p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      cursor: pointer;
+      /* Text2 */
+
+      color: #000000;
+
+      opacity: 0.5;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  &_left {
+    width: 870px;
+    height: 630px;
+    background: #ffffff;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 40px 80px;
+
+    &_h5 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      /* identical to box height, or 140% */
+
+      /* Secondary 2 */
+
+      color: #db4444;
+    }
+
+    &_inputs {
+      display: flex;
+      flex-direction: column;
+      margin-top: 16px;
+      .account_label {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+      }
+      .account_input {
+        background: #f5f5f5;
+        border-radius: 4px;
+        border: none;
+        padding: 13px 16px;
+        width: 350px;
+      }
+    }
+    .top_ipt {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}
+.account_pass {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  .pass_label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+}
+.pass_input {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+  padding: 13px 16px;
+  margin-bottom: 16px;
+}
+.bottom_btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 32px;
+  .cancel {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.btn_account {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+
+  width: 214px;
+  height: 56px;
+
+  /* Button2 */
+
+  background: #db4444;
+  border-radius: 4px;
+}
